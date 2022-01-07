@@ -1,0 +1,204 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos básicos*/
+body{
+    background: var(--preta);
+    font-family: Helvetica, Arial;
+    color: #FFFFFF
+}   
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+header .logo{
+    margin-left: 24px;
+    color: var(--vermelho);
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 12px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+main .filme-principal .titulo {
+    margin-top: 8px;
+    font-family: "Averia Serif Libre";
+    margin-bottom: 24px;
+    font-size: 64px;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/brakingbad-capa1.jpg');
+
+    height: 440px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;   
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 16px 24px;
+    margin-right: 24px;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color:black
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 24px;
+}
+
+.filme-pricipal .container{
+    width: 70%;
+}
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 8px;
+}
+
+.series{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+}
+.filmes{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.paragrafo1 {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    font-family:"Helvetica";
+    font-size: 16px;
+}
+.informacoes-do-filme {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ .breakingbad-capa2{
+    height: auto;
+    width: auto;
+    max-width: 880px;
+    max-height: 880px;
+    padding: 16px;
+    margin: 24px;
+ }
+ .container2{
+     margin:0;
+     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.saiba-mais{
+    font-size: 40px;
+    margin-left: 32px;
+    font-family: Helvetica;
+    margin-top: 32px;
+}
+.titulo1{
+    margin-top: 16px;
+    font-family: helvetica;
+    font-size: 24px;
+    margin-left: 32px;
+}
+
+.titulo2{
+    margin-top: 32px;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 32px;
+}
+.titulo3{
+    margin-top: 32px;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 32px;
+}
+.paragrafo2{
+    margin-top: 32px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.paragrafo-assistir{
+    margin-top: 16px;
+    font-family: Helvetica;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+.trailer-do-filme{
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+.video-trailer{
+    margin-left: 32px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
